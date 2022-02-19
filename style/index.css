@@ -68,7 +68,6 @@ section >.box{
 }
 
 section.img1{
-    width:100%;
     background-image: url(../img/img.ocean.jpg);
     background-size: cover;
     background-position: center;
