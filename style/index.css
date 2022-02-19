@@ -11,7 +11,7 @@
     padding: 0px;
 }
 
-body{
+body{;
     height: 100%;
     background-image: url(../img/bg.ocean.jpg);
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body{
 }
 
 header{
-    width: 100%;
+    min-width: 300px;
     height: 180px;
     background-color: rgba(0, 0, 0, 0.705);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
@@ -62,6 +62,7 @@ section{
     color: #EDAA25;
 }
 section >.box{
+    max-width: 100%;
     width: 362px;
     background-color: rgba(255, 255, 255, 0.171);
 }
