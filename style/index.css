@@ -51,6 +51,11 @@ a:hover{
    text-decoration: underline;
 }
 
+audio{
+    margin: auto;
+    display: block;
+    padding: 50px;
+}
 section{
     font-size: max(20px, 1vw);
     line-height: 2em;
