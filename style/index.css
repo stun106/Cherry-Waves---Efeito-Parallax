@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gideon+Roman&display=swap');
+
+:root{
+    --fonttitulo: 'Abril Fatface', cursive;
+    --fontpadrao: Arial, Helvetica, sans-serif;
+    --fontdestaque: 'Gideon Roman', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100%;
+    background-image: url(../img/bg.ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.705);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+header > h1{
+    padding: 23px 0px 0px; 
+   text-align: center;
+   color: white;
+   font-family: var(--fonttitulo);
+   font-size: max(53px, 4vw);
+   font-variant: small-caps;
+}
+header > p{
+        text-align: center;
+    padding: 13px 0px 0px;
+    text-shadow: 3px 3px 5px rgb(0 0 0 / 50%);
+    font-family: var(--fontdestaque);
+    font-size: max(25px, 1vw);
+    color: white;
+}
+header > footer,a{
+    text-decoration: none;
+    font-family: var(--fontdestaque);
+    color: white;
+}
+a:hover{
+   background-color: #e8e9ec;
+   color: black;
+   text-decoration: underline;
+}
+
+section{
+    font-size: max(20px, 1vw);
+    line-height: 2em;
+    padding: 20px 30px;
+    color: white;
+    
+}
+.yellow{
+    color: #EDAA25;
+}
+section >.box{
+    width: 362px;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+section.img1{
+    width:100%;
+    background-image: url(../img/img.ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 6px 0px 15px 5px rgba(0, 0, 0, 0.39)
+    
+}
+section.img2{
+    background-image: url(../img/img.mergulho.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    box-shadow: inset 6px 0px 15px 5px rgba(0, 0, 0, 0.39)
+    
+}
+section.img3{
+    background-image: url(../img/cherrywaves.jpg);
+    background-size: cover;
+    box-shadow: inset 6px 0px 15px 5px rgba(0, 0, 0, 0.39)
+}
+section#im1,#im3 {
+    background-attachment: fixed;
+}
+
+footer{
+    padding:15px;
+    text-align: center;
+    font-family: var(--fontdestaque);
+    background-color: black;
+    color: white;
+}
+
+
+
