@@ -10,12 +10,14 @@
     margin: 0px;
     padding: 0px;
 }
+/*reprodutor de audio*/
 
-body{;
+
+/*estilo do site*/
+body{
     height: 100%;
-    background-image: url(../img/bg.ocean.jpg);
+    background-image: url(../img/img.bubbles.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 header{
