@@ -10,14 +10,11 @@
     margin: 0px;
     padding: 0px;
 }
-/*reprodutor de audio*/
-
-
-/*estilo do site*/
 body{
     height: 100%;
     background-image: url(../img/img.bubbles.jpg);
     background-repeat: no-repeat;
+    
 }
 
 header{
