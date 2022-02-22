@@ -1,10 +1,7 @@
 var musica = document.querySelector('audio');
 var duracaoMusica = document.querySelector('.fim');
 
-
-
 //Eventos
-
 
  document.querySelector('.playbtn').addEventListener('click', tocarMusica);
 
@@ -14,19 +11,15 @@ var duracaoMusica = document.querySelector('.fim');
 
  musica.addEventListener('timeupdate', atualizarBarra);
 
-
- 
   //funções  
     
  function tocarMusica(){
     musica.play();
 }
 
-
 function pauseMusica(){
     musica.pause();
 }
-
 
 function pararMusica(){
     musica.pause();
