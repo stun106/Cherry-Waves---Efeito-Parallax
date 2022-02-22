@@ -11,6 +11,7 @@
     padding: 0px;
 }
 body{
+    min-width: 490px;
     height: 100%;
     background-image: url(../img/img.bubbles.jpg);
     background-repeat: no-repeat;   
@@ -103,7 +104,7 @@ a:hover{
 /* fim dos styles do reprodutor de audio*/
 
 header{
-    min-width: 300px;
+    min-width: 320px;
     height: 180px;
     background-color: rgba(0, 0, 0, 0.705);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
@@ -143,7 +144,8 @@ audio{
 section{
     font-size: max(20px, 1vw);
     line-height: 2em;
-    padding: 20px 30px;
+    padding: 20px 20px;
+
     color: white;
     
 }
@@ -160,7 +162,7 @@ section.img1{
     background-image: url(../img/img.ocean.jpg);
     background-size: cover;
     background-position: center;
-    box-shadow: inset 6px 0px 15px 5px rgba(0, 0, 0, 0.39)
+    box-shadow:  5px 5px 15px 5px rgba(0, 0, 0, 0.39)
     
 }
 section.img2{
@@ -168,13 +170,13 @@ section.img2{
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    box-shadow: inset 6px 0px 15px 5px rgba(0, 0, 0, 0.39)
+    box-shadow:  5px 5px 15px 5px rgba(0, 0, 0, 0.39)
     
 }
 section.img3{
     background-image: url(../img/cherrywaves.jpg);
     background-size: cover;
-    box-shadow: inset 6px 0px 15px 5px rgba(0, 0, 0, 0.39)
+    box-shadow:  5px 5px 15px 5px rgba(0, 0, 0, 0.39)
 }
 section#im1,#im3 {
     background-attachment: fixed;
